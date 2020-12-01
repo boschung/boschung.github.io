@@ -1,0 +1,7 @@
+site_name: My Docs
+nav:
+    - Home: aboutme.md
+    - MKDOCS Documentation: mkdocsuseage.md
+
+    
+theme: readthedocs
