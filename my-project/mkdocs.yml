@@ -1,7 +1,7 @@
-site_name: My Docs
+site_name: BPE
 nav:
-    - Home: aboutme.md
-    - MKDOCS Documentation: mkdocsuseage.md
+    - About: index.md
+    - mkdocs: mkdocsuseage.md
 
     
 theme: readthedocs

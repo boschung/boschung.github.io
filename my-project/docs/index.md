@@ -1,17 +1,44 @@
-# Welcome to MkDocs
+# boschung.github.io
+Welcome on my GitlabPages site 
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+```
+Precision, Information, Technology, Cooperation, Honesty, Consultation, Know-How, helP
+```
 
-## Commands
+Get a customer friendly technical expert on your side, that helps on most actual topics.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Simple consulting from a private computer recommandation or home network setups to complex engineering topics. 
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Technical background
+
+### Projects
+- Developing an IOT device in C
+- Python test environment on IOT devices
+- Gitlab setup for Continuous Integration and Delivery
+- Motion Controler development for BLDC Motors (Tq, Posiioning, Speed) in C++
+- Sensorevaluation for high precision and high reliability positioning
+- Bluetooth Antenna tuning for an AV
+
+
+### Private Projects
+- Comming soon: Heat Pump controlling unit 
+- Self installing Microsoft and Linux machines
+- Autonomous actuators with solar charging circuit and super caps
+- LUSTAT Dataanalysis
+- Global Customer support E-Mail Classification
+- Electrical heater Circuit 20KW
+- Static Homepages
+
+### School
+- Certificate of advanced Studies in Arteficial Intelligence at Hochschule Luzern 
+- Bachelor of Science in Electrical Engineering at Hochschule Luzern
+- Medical Sergeant at San42 Airolo
+- Apprenticeship in Electronics at BBZS
+
+## Contact
+
+<a href="https://www.linkedin.com/in/patrick-boschung-569bab13b/">
+<img border="0" alt="linkedin" src="in.png" width="100" height="100"> </a>
+
+

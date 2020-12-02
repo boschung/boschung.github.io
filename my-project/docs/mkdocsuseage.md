@@ -1,4 +1,4 @@
-# How To with mkdocs
+# Use mkdocs Example
 
 ## source
 https://www.mkdocs.org/
