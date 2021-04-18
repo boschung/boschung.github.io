@@ -1,7 +1,0 @@
-site_name: BPE
-nav:
-    - About: index.md
-    - mkdocs: mkdocsuseage.md
-
-    
-theme: readthedocs

@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>mkdocs - BPE</title>
+  <title>Chickendoor - BPE</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "mkdocs";
-    var mkdocs_page_input_path = "mkdocsuseage.md";
+    var mkdocs_page_name = "Chickendoor";
+    var mkdocs_page_input_path = "chickendoor.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -51,26 +51,18 @@
                     <li class="toctree-l1"><a class="reference internal" href="..">About</a>
                     </li>
                 </ul>
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">mkdocs</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#create-mkdocs">Create mkdocs</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#use-mkdocs">Use mkdocs</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#more-information-at">more information at</a>
-    </li>
-    </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../mkdocsuseage/">mkdocs</a>
                     </li>
                 </ul>
                 <ul>
                     <li class="toctree-l1"><a class="reference internal" href="../notDocumenteYet/">Projects</a>
                     </li>
                 </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../chickendoor/">Chickendoor</a>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Chickendoor</a>
+    <ul class="current">
+    </ul>
                     </li>
                 </ul>
                 <ul>
@@ -98,7 +90,7 @@
     
       
     
-    <li>mkdocs</li>
+    <li>Chickendoor</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -109,21 +101,28 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="how-to-use-mkdocs">How to use mkdocs</h1>
-<p>This is a simple guide to create a mkdocs homepages. </p>
-<h2 id="installation">Installation</h2>
-<p>python -m pip install mkdocs</p>
-<h2 id="create-mkdocs">Create mkdocs</h2>
-<p>mkdocs new my-project</p>
-<h2 id="use-mkdocs">Use mkdocs</h2>
-<p>To review the created page go to the top folder:
-  - mkdocs serve 
-  - goto: http://127.0.0.1:8000/</p>
-<p>Create
-  - mkdocs build
-  - Upload this build to the FTP server</p>
-<h2 id="more-information-at">more information at</h2>
-<p>https://www.mkdocs.org/</p>
+                <h1 id="chickendoor">ChickenDoor</h1>
+<p>This is a simple guide to build a DIY automated ChickenDoor.</p>
+<h1 id="project">Project</h1>
+<p>The project is realized with an ESP32 and micropython.
+- Used a foto resistor to detect night and day
+- Used a servo motor out of a RC car
+- 4W solar pannel to supply an old car battery
+- Built a5 V buck converter to supply the ESP32 with 5V 
+- Used 5V Supercaps to supply the servo motoe</p>
+<h1 id="electronic-shematic">Electronic shematic</h1>
+<h1 id="mechanics">Mechanics</h1>
+<p>A weight optimized door with a counter weight and a gear is used.</p>
+<p>Bow = 2 * pi * Radius * (Alpha / 360°)
+Bow = Lifting door Height</p>
+<p>An arm with the size radius, is mounted on the servo that moves 90°.</p>
+<h1 id="firmware-at-github">Firmware at Github</h1>
+<h1 id="fix-esp32">Fix ESP32</h1>
+<p>Error: “Failed to connect to ESP32: Timed out waiting for packet header”
+Use a 100uF between EN and GND
+https://randomnerdtutorials.com/solved-failed-to-connect-to-esp32-timed-out-waiting-for-packet-header/</p>
+<h1 id="further-implementations">Further implementations</h1>
+<p>Replace the foto sensor by an algorithm "time to position dependent day light". Time syncronisation could be done online.</p>
               
             </div>
           </div>
@@ -131,10 +130,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../notDocumenteYet/" class="btn btn-neutral float-right" title="Projects">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../spectrumanalyzer/" class="btn btn-neutral float-right" title="Spectrumanalyzer">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href=".." class="btn btn-neutral" title="About"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../notDocumenteYet/" class="btn btn-neutral" title="Projects"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -160,10 +159,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../notDocumenteYet/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../notDocumenteYet/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../spectrumanalyzer/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
