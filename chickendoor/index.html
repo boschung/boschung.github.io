@@ -108,21 +108,25 @@
 - Used a foto resistor to detect night and day
 - Used a servo motor out of a RC car
 - 4W solar pannel to supply an old car battery
-- Built a5 V buck converter to supply the ESP32 with 5V 
-- Used 5V Supercaps to supply the servo motoe</p>
-<h1 id="electronic-shematic">Electronic shematic</h1>
+- Built a 5 V buck converter to supply the ESP32 with 5V 
+- Used 5V Supercaps to supply the servo motor</p>
 <h1 id="mechanics">Mechanics</h1>
-<p>A weight optimized door with a counter weight and a gear is used.</p>
-<p>Bow = 2 * pi * Radius * (Alpha / 360°)
-Bow = Lifting door Height</p>
+<p><img alt="" src="../mech.jpg" /></p>
+<p>A weight optimized door with a counter weight is used.</p>
 <p>An arm with the size radius, is mounted on the servo that moves 90°.</p>
+<p>Bow = Lifting door Height
+Bow = 2 * pi * Radius * (Alpha / 360°)</p>
+<h1 id="electronic">Electronic</h1>
+<p><img alt="" src="../schematicForESPExtension.JPG" /></p>
 <h1 id="firmware-at-github">Firmware at Github</h1>
-<h1 id="fix-esp32">Fix ESP32</h1>
+<p>https://github.com/boschung/ChickenDoor</p>
+<h2 id="fix-esp32">Fix ESP32</h2>
 <p>Error: “Failed to connect to ESP32: Timed out waiting for packet header”
 Use a 100uF between EN and GND
 https://randomnerdtutorials.com/solved-failed-to-connect-to-esp32-timed-out-waiting-for-packet-header/</p>
-<h1 id="further-implementations">Further implementations</h1>
-<p>Replace the foto sensor by an algorithm "time to position dependent day light". Time syncronisation could be done online.</p>
+<h2 id="further-implementations">Further implementations</h2>
+<p>Deepsleep Modes could reduce the power that is used.
+Replace the foto sensor by an algorithm "time to position dependent day light". Time synchronisation could be done online.</p>
               
             </div>
           </div>
